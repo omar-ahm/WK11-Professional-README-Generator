@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-ahm/WK11-Professional-README-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/omar-ahm/WK11-Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/omar-ahm/WK11-Professional-README-Generator#readme"
 }
