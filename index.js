@@ -13,7 +13,7 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: 'Provide a description explaining the what, why and how of your project.:',
+    message: 'Provide a description explaining the what, why and how of your project:',
 },
 {
     type: 'input',
@@ -34,7 +34,7 @@ const questions = [
 {
     type: 'input',
     name: 'credits',
-    message: 'List any collaborators, if any, with links to their GitHub profiles. Include any third-party assets or links.:',
+    message: 'List any collaborators, if any, with links to their GitHub profiles. Include any third-party assets or links:',
     choices: ['The GitHub Docs - contribution guidelines.', ]
 },
 {

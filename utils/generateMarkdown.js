@@ -39,6 +39,11 @@ const licenseBadge =
   ${data.usage}
 
   #
+  ## Credits
+
+  ${data.credits}
+
+  #
   ## License
   
   This project uses the ${data.license} license, please refer to the license section for more info.
