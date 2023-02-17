@@ -30,7 +30,7 @@
 
   ## Usage
   
-  load the file in VSCode and run it in the integrated terminal using <pre>node index.js>
+  load the file in VSCode and run it in the integrated terminal using <pre>node index.js</pre>
 
   <br/>
 
