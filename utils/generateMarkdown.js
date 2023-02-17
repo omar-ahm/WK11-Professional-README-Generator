@@ -1,15 +1,18 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-const licenseBadge = 
+// Markdown for generating the relevant license badge to display and link to the license information page
+  const licenseBadge = 
   data.license === 'MIT' ? '![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)' : 
   data.license === 'Apache 2.0' ? '![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)' :
   data.license === 'ISC' ? '![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)' :
+  data.license === 'GPL' ? '![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)' :
+  data.license === 'CC BY 4.0' ? '![CC BY 4.0 License](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)' :
   '';
 
-
+// README markdown structure 
   return `
-
-  ${licenseBadge}
+ 
+  ${licenseBadge} 
 
   # ${data.title}
 

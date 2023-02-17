@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require('path');
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+// Required modules 
+const fs = require("fs"); // Imports the built in Node.js module fs which works with the file system
+const inquirer = require("inquirer"); // Imports the external module inquirer to provide command line interfaces
+const generateMarkdown = require("./utils/generateMarkdown"); // imports the generateMarkdown moduel to capture the response from the user
 
 // array of questions for user
 const questions = [
@@ -29,7 +29,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What license will your project be covered under?:',
-    choices: ['MIT', 'Apache 2.0', 'ISC'],
+    choices: ['MIT', 'Apache 2.0', 'ISC', 'GPL', 'CC BY 4.0'],
 },
 {
     type: 'input',
@@ -63,11 +63,19 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), (err) =>
-    err ? console.log(err) : console.log('Your README.md file has been successfully generated.')
+    err ? console.log(err) : 
+    console.log('Your README.md file has been successfully generated.')
     );
 }
 
 // function to initialize program
+// inquirer.prompt is called, which will propmpt the user with a series of questions 
+// The question object being passed contains the array of question objects listed above
+// this sections is to handle the asynchronous responses from the inquirer prompts
+// This declares a varibale which will contains the end result value
+// This writes the users responses to the file
+// This is called to catch any errors that occur during the inquirer prompts
+// if an error occurs it is caught and printed to the console using the below 
 function init() {
 inquirer.prompt(questions)
 .then((answers) => {
