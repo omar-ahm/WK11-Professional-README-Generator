@@ -13,50 +13,50 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: `Provide a description explaining the what, why and how of your project.
-    Use the following questions to guide you:
-    - What was your motivation?
-    - Why did you build this project?
-    - What problem does it solve?
-    - What did you learn?
-    :`,
+    message: 'Provide a description explaining the what, why and how of your project.:',
 },
 {
     type: 'input',
     name: 'installation',
-    message: 'What are the instructions for installation for your project?',
+    message: 'What are the steps required to install your project? Provide a step-by-step guide on how to get the project running:',
 },
 {
     type: 'input',
     name: 'usage',
-    message: "What are the usage instructions for your project?",
+    message: "Provide intsructions & examples for use. Include screenshots where applicable:",
 },
 {
     type: 'list',
     name: 'license',
-    message: 'What license will your project be covered under?',
+    message: 'What license will your project be covered under?:',
     choices: ['MIT', 'Apache 2.0', 'ISC'],
+},
+{
+    type: 'input',
+    name: 'credits',
+    message: 'List any collaborators, if any, with links to their GitHub profiles. Include any third-party assets or links.:',
+    choices: ['The GitHub Docs - contribution guidelines.', ]
 },
 {
     type: 'list',
     name: 'contributing',
-    message: 'What contributing guidelines would you like to include?',
+    message: 'What contributing guidelines would you like to include?:',
     choices: ['The GitHub Docs - contribution guidelines.', ]
 },
 {
     type: 'input',
     name: 'tests',
-    message: 'What test instructions would you like to include with your project?',
+    message: 'Are there any tests you would like to provide (with examples) on how to runs them?:',
 },
 {
     type: ' input',
     name: 'github',
-    message: 'What is your GitHub username? (e.g. github.io/xxxx): ',
+    message: 'Enter your GitHub username? (e.g. github.io/xxxx):',
 },
 {
     type: 'input',
     name: 'email',
-    message: 'What is your email address?',
+    message: 'Enter your email address? where users can contact you:',
 },
 ];
 

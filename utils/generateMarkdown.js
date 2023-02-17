@@ -1,6 +1,16 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+const licenseBadge = 
+  data.license === 'MIT' ? '![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)' : 
+  data.license === 'Apache 2.0' ? '![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)' :
+  data.license === 'ISC' ? '![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)' :
+  '';
+
+
   return `
+
+  ${licenseBadge}
+
   # ${data.title}
 
   ## Description
