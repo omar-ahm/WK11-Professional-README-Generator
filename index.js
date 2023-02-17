@@ -13,17 +13,23 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: 'Provide a description of your project',
+    message: `Provide a description explaining the what, why and how of your project.
+    Use the following questions to guide you:
+    - What was your motivation?
+    - Why did you build this project?
+    - What problem does it solve?
+    - What did you learn?
+    :`,
 },
 {
     type: 'input',
     name: 'installation',
-    message: 'What are the instructions for installationn for your project?',
+    message: 'What are the instructions for installation for your project?',
 },
 {
     type: 'input',
-    name: 'usgae',
-    message: "What are the usage instructiosns for your project?",
+    name: 'usage',
+    message: "What are the usage instructions for your project?",
 },
 {
     type: 'list',
@@ -35,7 +41,7 @@ const questions = [
     type: 'list',
     name: 'contributing',
     message: 'What contributing guidelines would you like to include?',
-    choices: ['The GitHub Docs - contribution guidelines.', 'Contributor Covenant - industry Standard', 'The Open Government contribution guidelines', ]
+    choices: ['The GitHub Docs - contribution guidelines.', ]
 },
 {
     type: 'input',
@@ -45,7 +51,7 @@ const questions = [
 {
     type: ' input',
     name: 'github',
-    message: 'What is your GitHub username?',
+    message: 'What is your GitHub username? (e.g. github.io/xxxx): ',
 },
 {
     type: 'input',
