@@ -35,13 +35,13 @@ const questions = [
     type: 'input',
     name: 'credits',
     message: 'List any collaborators, if any, with links to their GitHub profiles. Include any third-party assets or links:',
-    choices: ['The GitHub Docs - contribution guidelines.', ]
 },
 {
     type: 'list',
     name: 'contributing',
     message: 'What contributing guidelines would you like to include?:',
-    choices: ['The GitHub Docs - contribution guidelines.', ]
+    choices: ['The GitHub Docs - contribution guidelines.',]
+    
 },
 {
     type: 'input',
