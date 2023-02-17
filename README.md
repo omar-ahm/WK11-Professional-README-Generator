@@ -6,7 +6,7 @@
 
   ## Description
   
-  This provide is built for users to dynamically generate a README.md file for projects within their GitHub repositories. It is designed to take the leg work out of building a README.md file from scratch for every project. It utilises command-line prompt to guide the user every step of the way.
+  This project is buil for users to dynamically generate a README.md file for future GitHub projects, it is designed to take the leg work out of having to create a README.md file from scratch everytime and prompts the user step-by step.
 
   <br/>
   
@@ -24,13 +24,13 @@
 
   ## Installation
   
-  To install the project first you need to download/clone/fork the project files to your local machine. Ensure node.js is installed on your machine, this can be done by running <pre>npm install</pre> in the commandline terminal.
+  To install the project you need to download/clone or fork the project to your local machine.
 
   <br/>
 
   ## Usage
   
-  Instructions on how to use this tool are: 1. load the project files and open in VS Code, 2. Open the integrated terminal 3. run the following command <pre>node index.js</pre>
+  load the file in VSCode and run it in the integrated terminal using <pre>node index.js>
 
   <br/>
 
@@ -54,12 +54,12 @@
 
   ## Tests
   
-  As a live test I have used this tool to generate the README.md file you are currently viewing.
+  The README.md file you are currently viewing has been generated using this tool and is a live test.
 
   <br/>
 
   ## Questions
 
   If you have any questions, please contact me at omar-ahm@outlook.com. You can also check out my 
-  projects at [github.io/omar-ahm](https://github.io/omar-ahm).
+  projects at [githuub.io/omar-ahm](https://githuub.io/omar-ahm).
 
