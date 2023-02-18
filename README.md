@@ -56,6 +56,8 @@
   
   The README.md file you are currently viewing has been generated using this tool and is a live test.
 
+  In addition you can also run tests that are included within your project files using the following command <pre>npm test</pre> 
+
   <br/>
 
   ## Questions
