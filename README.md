@@ -6,7 +6,7 @@
 
   ## Description
   
-  This project is buil for users to dynamically generate a README.md file for future GitHub projects, it is designed to take the leg work out of having to create a README.md file from scratch everytime and prompts the user step-by step.
+  This project is built for users to dynamically generate a README.md file for future GitHub projects, it is designed to take the leg work out of having to create a README.md file from scratch everytime and prompts the user step-by step.
 
   <br/>
   
