@@ -24,13 +24,13 @@
 
   ## Installation
   
-  To install the project you need to download/clone or fork the project to your local machine.
+  To install the project you need to download/clone or fork the project to your local machine. Ensure node.js is installed on your machine using <pre>npm install</pre>
 
   <br/>
 
   ## Usage
   
-  load the file in VSCode and run it in the integrated terminal using <pre>node index.js</pre>
+  Load the file in VSCode and run it in the integrated terminal using <pre>node index.js</pre>
 
   <br/>
 
@@ -61,5 +61,5 @@
   ## Questions
 
   If you have any questions, please contact me at omar-ahm@outlook.com. You can also check out my 
-  projects at [github.io/omar-ahm](https://github.io/omar-ahm).
+  other projects at [github.io/omar-ahm](https://github.io/omar-ahm).
 
