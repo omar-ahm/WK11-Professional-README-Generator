@@ -63,5 +63,5 @@
   ## Questions
 
   If you have any questions, please contact me at omar-ahm@outlook.com. You can also check out my 
-  other projects at [github.io/omar-ahm](https://github.io/omar-ahm).
+  other projects at [https://github.io/omar-ahm](https://github.io/omar-ahm).
 
